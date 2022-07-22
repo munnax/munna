@@ -1,0 +1,117 @@
+.prectice {
+    color: aqua;
+    background-color: black;
+    padding: auto;
+    display: inline-block;
+    margin-left: 20px;
+
+}
+
+.form-box{
+    border: 2px solid orangered;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    border-radius: 15px;
+    box-shadow: 2px 3px 20px
+
+}
+#name,#email,#adress,#message{
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    border-color: 1px solid red;
+}
+.form-parent{
+    width: 100vw;
+    display: flex;
+    border-radius: 15px;
+justify-content: center;
+}
+
+
+@media screen and (max-width:400px) {
+    .form-box{
+        background-color: red;
+    }
+}
+
+.nav{
+    height: 30px;
+    width:100%;
+    background-color: antiquewhite;
+    padding: 10px;
+    }
+.header{
+    height: 150px;
+    width:100%;
+    background-color: rgb(165, 106, 29);
+    padding: 10px;
+}
+.content{
+    height: 350px;
+    width:100%;
+    background-color: rgb(184, 8, 160);
+}
+
+.leftc{
+width:65%;
+height:100%;
+background-color: rgb(13, 245, 187);
+float:right;
+}
+.rightc{
+  
+}
+.footer{}
+
+body{
+    background: url(../image/background2.png) ;
+background-attachment:fixed;
+}
+.tc{
+    color: rgb(219, 140, 21);text-align: center;text-align: justify;
+}
+.td{
+    text-decoration: underline;color: rgb(209, 8, 142);
+}
+a{
+    color: azure;background-color: cadetblue;padding: 12px; text-decoration: none;
+}
+a:hover{
+    background-color: coral;
+    color: chartreuse;
+}
+a:active{
+    background-color: black;color: brown;
+}
+a:visited{
+   background-color: olive;
+   color: aliceblue;
+   columns: ;
+}
+.skill{
+    background-color:azure ;padding: 10px;margin: 10px;display: ;
+}
+.common{
+    background-color:azure ;
+     display: inline-block;
+     padding: 5px 15px ;
+     margin: 10px 2px;
+     margin-bottom: 20px;
+}
+.border-property{
+
+    border-style:solid;
+    border-color: orange;
+    background-color: papayawhip;
+    width: 700px;
+    border-radius: 10px;
+    padding-left: 2px;
+    padding: 10px;
+    margin: 30px;
+    margin: left;
+    text-align: center;
+}
